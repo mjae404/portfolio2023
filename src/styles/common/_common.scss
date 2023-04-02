@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+  height: calc(var(--vh, 1vh) * 100);
+  z-index: 0;
+  font-weight: 400;
+}
+
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}

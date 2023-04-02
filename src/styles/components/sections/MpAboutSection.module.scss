@@ -1,0 +1,53 @@
+@import "../../common/variable";
+@import "../../common/mixin";
+
+.mp-about {
+  &-list {
+    margin-bottom: 30px;
+  } // .mp-about-list
+
+  &-item {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+
+    &:not(:last-child) {
+      position: relative;
+      margin-right: 20px;
+
+      &::after {
+        display: block;
+        @include position (absolute, 50%, -10px);
+        width: 1px;
+        height: 15px;
+        background-color: #515151;
+        transform: translateY(-50%);
+        content: '';
+      }
+    }
+  } // .mp-about-item
+
+  &-text a {
+    color: $point;
+    border-bottom: 1px dashed $point;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: $point;
+      color: #fff;
+      border: none;
+    }
+  } // .mp-about-text
+
+  &-skills {
+    margin-top: 15px;
+    font-size: 16px;
+
+    .point {
+      background-color: $point;
+      color: #fff;
+      font-weight: normal;
+      padding: 0 10px;
+    }
+  } // .mp-about-skills
+}

@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 200px 15px 100px;
+  box-sizing: border-box;
+  opacity: 1;
+
+  @media screen and (min-width: 768px) {
+    padding: 300px 15px 200px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 300px 0 200px;
+  }
+
+  &-title {
+    @include position (absolute, 100px, null, null, -100%);
+    font-size: 50px;
+    color: #fff;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    transition: all 1s;
+
+    @media screen and (min-width: 546px) {
+      font-size: 70px;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 150px;
+    }
+
+    &.animate {
+      left: -20px;
+      transition: all 1s;
+
+      @media screen and (min-width: 1200px) {
+        left: -200px;
+      }
+    }
+  } // .section-title
+}
+
+.mp {
+  &-section-wrap {
+    @media screen and (min-width: 992px) {
+      display: flex;
+    }
+  } // .mp-section-wrap
+
+  &-image-area,
+  &-content-area {
+    flex: 1;
+  } // .mp-image-area, .mp-content-area
+
+  &-image {
+    display: none;
+
+    @media screen and (min-width: 992px) {
+      display: block;
+      padding-top: 100%;
+      margin-top: 2rem;
+      filter: grayscale(100%);
+      transform: scale(0.8, 0.8) rotate(5deg);
+      transition: all 1s;
+
+      @at-root .mp-about-area & {
+        background: url("../../assets/images/main_about.png") no-repeat center center / contain;
+
+        &.support_webp {
+          background: url("../../assets/images/main_about.webp") no-repeat center center / contain;
+        }
+      }
+
+      @at-root .mp-experience-area & {
+        background: url("../../assets/images/main_experience.png") no-repeat center center / contain;
+        
+        &.support_webp {
+          background: url("../../assets/images/main_experience.webp") no-repeat center center / contain;
+        }
+      }
+
+      &.animate {
+        filter: none;
+        transition: all 1s;
+        transform: scale(1, 1) rotate(0deg);
+      }
+    }
+  } // .mp-image
+}

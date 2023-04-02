@@ -1,0 +1,103 @@
+.mp {
+  // 메인 인트로 영역
+  &-intro {
+    &-area {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 200px 15px 100px;
+      box-sizing: border-box;
+
+      @media screen and (min-width: 1200px) {
+        padding: 200px 0 100px;
+      }
+    } // .mp-intro-area
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+
+      @media screen and (min-width: 768px) {
+        margin: 0 -10px;
+      }
+    } // .mp-intro-list
+
+    &-item {
+      padding: 0 10px;
+      width: 50%;
+      box-sizing: border-box;
+      margin-top: 30px;
+
+      &:first-child,
+      &:nth-child(2)  {
+        margin-top: 0;
+      }
+
+      @media screen and (min-width: 768px) {
+        margin-top: 0;
+        flex: 1;
+        width: auto;
+      }
+
+      &:hover {
+        .mp-intro-number {
+          color: #000;
+        }
+      }
+    } // .mp-intro-item
+
+    &-number {
+      display: block;
+      font-size: 60px;
+      font-weight: bold;
+      letter-spacing: -0.02em;
+      color: #fff;
+      text-shadow:
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+      transition: all 0.2s;
+    } // .mp-intro-number
+
+    &-title {
+      color: #000000;
+      font-size: 25px;
+      line-height: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      word-break: break-all;
+    } // .mp-intro-title
+
+    &-sub {
+      &-list {
+        margin-top: 15px;
+      } // .mp-intro-sub-list
+
+      &-item {
+        position: relative;
+        font-size: 14px;
+        padding-left: 10px;
+        color: #686868;
+        font-style: italic;
+
+        &::before {
+          position: absolute;
+          left: 0;
+          top: 10px;
+          display: block;
+          width: 6px;
+          height: 1px;
+          border-radius: 50%;
+          background-color: #000;
+          content: '';
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 5px;
+        }
+      } // .mp-intro-sub-item
+    }
+  }
+
+}

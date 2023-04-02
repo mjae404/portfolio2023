@@ -1,0 +1,89 @@
+@import "../../common/variable";
+@import "../../common/mixin";
+
+.mp-detail {
+  &-list {
+    &:first-of-type {
+      margin-top: 20px;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #E8E8E8;
+    }
+  } // .mp-detail-list
+
+  &-item {
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  } // .mp-detail-item
+
+  &-title {
+    color: $point;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: lighter;
+  } // .mp-detail-title
+
+  &-content {
+    &-title {
+      font-size: 18px;
+      font-weight: bold;
+    } // .mp-detail-content-title
+
+    &-sub-title {
+      margin-left: 5px;
+      font-size: 14px;
+    } // .mp-detail-content-sub-title
+
+    &-text {
+      font-size: 13px;
+      font-weight: normal;
+      color: #7F7F7F;
+    } // .mp-detail-content-text
+
+    &-info {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #D5D5D5;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 14px;
+
+      strong {
+        display: inline-block;
+        color: $point;
+        margin-bottom: 5px;
+      }
+    } // .mp-detail-content-info
+  } // .mp-detail-content
+
+  &-info {
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+    } // .mp-detail-info-list
+
+    &-item {
+      display: inline-block;
+
+      &:not(:last-child) {
+        position: relative;
+        margin-right: 12px;
+
+        &::after {
+          display: block;
+          @include position (absolute, 50%, -7px);
+          width: 2px;
+          height: 2px;
+          background-color: #7F7F7F;
+          border-radius: 50%;
+          transform: translateY(-50%);
+          content: "";
+        }
+      }
+    } // .mp-detail-info-item
+  }
+}

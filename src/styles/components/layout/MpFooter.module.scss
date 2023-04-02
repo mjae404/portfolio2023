@@ -1,0 +1,48 @@
+@import "../../common/variable";
+@import "../../common/mixin";
+
+.footer {
+  border-top: 1px solid #e8e8e8;
+
+  &-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+    text-align: center;
+  } // .footer-inner
+
+  &-contact {
+    &-list {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    } // .footer-contact-list
+
+    &-item {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    } // .footer-contact-item
+
+    &-link {
+      display: block;
+      color: transparent;
+      overflow: hidden;
+      transition: opacity 0.2s;
+      width: 30px;
+      height: 30px;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      $icons: (mail, github, blog);
+      @each $icon in $icons {
+        &.#{$icon} {
+          background: url("../../../assets/icons/icon_#{$icon}.png") no-repeat center center / contain;
+        }
+      }
+    } // .footer-contact-link
+  }
+}

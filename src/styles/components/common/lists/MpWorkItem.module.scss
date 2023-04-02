@@ -1,0 +1,132 @@
+@import "../../../common/variable";
+@import "../../../common/mixin";
+
+.mp-gallery {
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -7.5px;
+  } // .mp-gallery-list
+
+  &-item {
+    overflow: hidden;
+    padding: 7.5px;
+    width: 50%;
+    box-sizing: border-box;
+
+    @media screen and (min-width: 546px) {
+      width: 33.33%;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 25%;
+    }
+
+    @media screen and (min-width: 992px) {
+      width: 20%;
+    }
+  } // .mp-gallery-item
+
+  &-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    border: 1px solid #D5D5D5;
+    background-position: center center;
+    background-size: 101% 101%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    transition: background-size 0.2s;
+    word-break: keep-all;
+
+    $classNames: (
+        mjaedev2023,
+        markup_guide,
+        humuson,
+        targetmarketing,
+        kyobo_bootcamp,
+        mjaedev2022,
+        interaction_booklist,
+        interaction_coffee,
+        mjaedev2021,
+        kickmatch,
+        coffit,
+        ozarena,
+        xe_board,
+        tonyryu,
+        linedance,
+        uniuni,
+        candybirds
+    );
+
+    @each $className in $classNames {
+      &.#{$className} {
+        background-image: url('../../../../assets/images/icon_#{$className}.jpg');
+      }
+    }
+
+    &.support-webp {
+      @each $className in $classNames {
+        &.#{$className} {
+          background-image: url('../../../../assets/images/icon_#{$className}.webp');
+        }
+      }
+    }
+
+    &::before {
+      display: block;
+      @include position (absolute, 0, null, null, 0);
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      transition: opacity 0.2s;
+      opacity: 0;
+      content: '';
+    }
+
+    &:hover {
+      background-size: 120% 120%;
+      transition: background-size 0.2s;
+
+      &::before {
+        opacity: 1;
+      }
+
+      .mp-gallery-text-wrap {
+        opacity: 1;
+      }
+    }
+  } // .mp-gallery-link
+
+  &-text {
+    font-size: 16px;
+
+    &-wrap {
+      display: flex;
+      flex-direction: column;
+      @include position (absolute, 0, null, null, 0);
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      transition: opacity 0.2s;
+      opacity: 0;
+      box-sizing: border-box;
+    } // .mp-gallery-text-wrap
+  } // .mp-gallery-text
+
+  &-text {
+    font-weight: bold;
+  } // .mp-gallery-text
+
+  &-date {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+  } // .mp-gallery-date
+}
