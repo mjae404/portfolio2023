@@ -16,6 +16,7 @@ function MpVisualSection() {
                 </h2>
                 <div className={styles['scroll-btn']}>
                     <a className={styles['scroll-btn-link']} href="#intro">
+                        <span className="blind">인트로 영역으로 가기</span>
                         <span className={styles['mouse']}>
                             <span></span>
                         </span>

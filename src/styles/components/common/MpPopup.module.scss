@@ -3,11 +3,15 @@
 
 .mp-modal {
   @include position (fixed, 0, null, null, 0);
-  display: block;
+  display: none;
   z-index: 500;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
+
+  &.on {
+    display: block;
+  }
 
   &-inner {
     @include position (absolute, 50%, null, null, 50%);

@@ -1,17 +1,18 @@
 import React, { useEffect } from "react";
 import styles from "../../styles/components/common/MpPopup.module.scss";
 
-function MpPopup({ workName, workClass, workDate, url, target, contents, onClose }) {
+function MpPopup({ workName, workClass, workDate, url, target, contents, showPopup, onClose }) {
     useEffect(() => {
-        document.body.style.overflow = "hidden";
-        return () => {
+        if (showPopup) {
+            document.body.style.overflow = "hidden";
+        } else {
             document.body.style.overflow = "auto";
-        };
-    }, []);
+        }
+    }, [showPopup]);
 
     return (
         <section id={workClass} role="dialog" aria-live="polite" aria-labelledby={workClass}
-                 aria-modal="true" className={styles["mp-modal"]}>
+                 aria-modal="true" className={`${styles["mp-modal"]} ${styles[showPopup]}`}>
             <div className={styles["mp-modal-inner"]}>
                 <h3 className={styles["mp-modal-title"]}>{workName}</h3>
                 <div className={styles["mp-modal-content"]}>

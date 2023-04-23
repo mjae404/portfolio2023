@@ -43,7 +43,7 @@
       &-text {
         font-size: 13px;
         font-weight: normal;
-        color: #7F7F7F;
+        color: #666;
         margin-left: 5px;
       } // .mp-detail-content-text
 
@@ -81,7 +81,7 @@
             @include position (absolute, 50%, -7px);
             width: 2px;
             height: 2px;
-            background-color: #7F7F7F;
+            background-color: #666;
             border-radius: 50%;
             transform: translateY(-50%);
             content: "";

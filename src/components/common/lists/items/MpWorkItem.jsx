@@ -24,18 +24,16 @@ function MpWorkItem( {workName, workClass, workDate, url, target, contents, inde
                         <span className={styles['mp-gallery-date']}>{workDate}</span>
                     </span>
             </button>
-
-            {showPopup &&
-                <MpPopup
-                    workName={workName}
-                    workClass={workClass}
-                    workDate={workDate}
-                    url={url}
-                    target={target}
-                    contents={contents}
-                    onClose={() => handleClickClose(false)}
-                />
-            }
+            <MpPopup
+                workName={workName}
+                workClass={workClass}
+                workDate={workDate}
+                url={url}
+                target={target}
+                contents={contents}
+                showPopup = { showPopup ? "on" : "" }
+                onClose={() => handleClickClose(false)}
+            />
         </li>
     );
 }
