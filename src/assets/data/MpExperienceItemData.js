@@ -7,7 +7,7 @@ const MpExperienceItemData = [
         team: "TasOn 운영팀",
         description: "제플린으로 디자인 시안을 받아 리액트 환경에서 회사 내의 전체적인 퍼블리싱을 담당하고 있습니다. 퍼블리싱을 원활하게 작업할 수 있도록 보다 체계적이고 원활하게 작업할 수 있는 가이드 및 체계 등을 만들기 위해 노력합니다.",
         skills: [
-            "HTML5", "CSS3", "SCSS", "React", "GIT", "jira", "Confluence", "vscode"
+            "HTML5", "CSS3", "SCSS", "React", "storybook", "GIT", "jira", "Confluence", "vscode"
         ]
     },
     {
