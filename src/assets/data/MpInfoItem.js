@@ -1,16 +1,16 @@
 const MpLicenseItems = [
     {
-        date: "2016.06",
+        date: "2016.06.17",
         title: "GTQ 1급",
         details: "한국생산성본부"
     },
     {
-        date: "2014.06",
+        date: "2014.06.27",
         title: "컴퓨터그래픽스기능사",
         details: "한국산업인력공단"
     },
     {
-        date: "2014.06",
+        date: "2014.06.27",
         title: "웹디자인기능사",
         details: "한국산업인력공단"
     }
@@ -34,6 +34,19 @@ const MpEducationItems = [
     }
 ]
 
+const MpVolunteerActivities = [
+    {
+        date: "2013.12.17 - 2014.06.28",
+        title: "어반케어 1기",
+        details: "UCM 이웃사람 소속 대학생 봉사단 어반케어 1기 디자인팀 / 68시간"
+    },
+    {
+        date: "2013.03.02 - 2013.08.31",
+        title: "대학생 머문자리 서포터즈 8기",
+        details: "화장실 문화시민 연대 대학생 머문자리 서포터즈 / 62시간"
+    }
+]
+
 export {
-    MpLicenseItems, MpEducationItems
+    MpLicenseItems, MpEducationItems, MpVolunteerActivities
 }

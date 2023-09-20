@@ -2,7 +2,7 @@ import React, {useRef} from "react";
 import MpInfoList from "../common/lists/MpInfoList";
 import MpCheckImageWebp from "../../hooks/MpCheckImageWebp";
 import MpAddClassScroll from "../../hooks/MpAddClassScroll";
-import { MpLicenseItems, MpEducationItems } from "../../assets/data/MpInfoItem.js";
+import { MpLicenseItems, MpEducationItems, MpVolunteerActivities } from "../../assets/data/MpInfoItem.js";
 import styles from "../../styles/components/sections/MpAboutSection.module.scss";
 
 function MpAboutSection() {
@@ -35,6 +35,7 @@ function MpAboutSection() {
                         </p>
                         <MpInfoList items={MpLicenseItems} />
                         <MpInfoList items={MpEducationItems} />
+                        <MpInfoList items={MpVolunteerActivities} />
                     </div>
                 </div>
             </section>
