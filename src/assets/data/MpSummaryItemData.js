@@ -3,7 +3,7 @@ const MpSummaryItemData = [
         num: "01",
         name: "SKILLS",
         item: [
-            'HTML, CSS, SASS(SCSS), javascript',
+            'HTML, CSS, SASS(SCSS), React, javascript',
             'photoshop, illustrator',
             'git, gulp, etc'
         ]
@@ -12,7 +12,7 @@ const MpSummaryItemData = [
         num: "02",
         name: "EXPERIENCE",
         item: [
-            '휴머스온 (퍼블리셔 @TasOn 운영팀)',
+            '휴머스온 (퍼블리셔 @프런트엔드개발파트)',
             '교보문고 (퍼블리셔 @CX 혁신팀)',
             '티몬 (마크업 개발자 @마크업개발팀)',
             '엑스이허브 (퍼블리셔 @UI 개발팀)',
@@ -23,9 +23,9 @@ const MpSummaryItemData = [
         num: "03",
         name: "LICENSE",
         item: [
-            'GTQ 1급',
-            '컴퓨터그래픽스기능사',
-            '웹디자인기능사'
+            'GTQ 1급 (한국생산성본부)',
+            '컴퓨터그래픽스기능사 (한국산업인력공단)',
+            '웹디자인기능사 (한국산업인력공단)'
         ]
     },
     {

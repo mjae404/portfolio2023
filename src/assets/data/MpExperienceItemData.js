@@ -4,10 +4,10 @@ const MpExperienceItemData = [
         endDate: "재직중",
         company: "휴머스온",
         field: "퍼블리셔",
-        team: "TasOn 운영팀",
+        team: "운영센터 프런트엔드개발파트 / 프로",
         description: "제플린으로 디자인 시안을 받아 리액트 환경에서 회사 내의 전체적인 퍼블리싱을 담당하고 있습니다. 퍼블리싱을 원활하게 작업할 수 있도록 보다 체계적이고 원활하게 작업할 수 있는 가이드 및 체계 등을 만들기 위해 노력합니다.",
         skills: [
-            "HTML5", "CSS3", "SCSS", "React", "GIT", "jira", "Confluence", "vscode"
+            "HTML5", "CSS3", "SCSS", "React", "GIT", "jira", "Confluence", "vscode", "webstorm", "storybook"
         ]
     },
     {
@@ -15,7 +15,7 @@ const MpExperienceItemData = [
         endDate: "2022.11",
         company: "교보문고",
         field: "퍼블리셔",
-        team: "CX혁신팀",
+        team: "CX혁신팀 / 사원",
         description: "psd으로 디자인 시안을 받아 이벤트 프로모션 페이지를 주로 작업하였으며, 공통으로 사용하는 템플릿에 불필요한 코드나 접근성 등을 지키지 않은 부분이 많아 새로이 scss를 도입하여 템플릿을 제작하여 배포하였습니다. 그 외에도 리뉴얼된 교보문고 이북 메인 사이트의 메인 담당이었습니다.",
         skills: [
             "HTML5", "CSS3", "SCSS", "GIT", "Confluence", "vscode"
@@ -37,7 +37,7 @@ const MpExperienceItemData = [
         endDate: "2021.01",
         company: "엑스이허브",
         field: "퍼블리셔",
-        team: "R&D사업부/UI개발팀",
+        team: "R&D사업부 UI개발팀 / 대리",
         description: "제플린으로 디자인 시안을 받아 git, scss, gulp를 사용하여 다양한 부문의 XE3 기반 반응형 웹사이트 제작 및 유지보수를 담당하였습니다.",
         skills: [
             "HTML5", "CSS3", "SCSS", "jQuery", "GIT", "jira", "Confluence", "phpstorm"
