@@ -75,7 +75,7 @@ const MpWorkItemData = [
         workName: "교보문고 신입사원 부트캠프 과제",
         workClass: "kyobo_bootcamp",
         workDate: "2022.09",
-        url: "http://mjaedot.com/kyobo_bootcamp",
+        url: "https://mjaedot.com/kyobo_bootcamp",
         target: "_blank",
         contents: {
             percentage: "100%",
@@ -98,7 +98,7 @@ const MpWorkItemData = [
         workName: "포트폴리오 사이트 (2022)",
         workClass: "mjaedev2022",
         workDate: "2022.08",
-        url: "http://mjaedot.com/portfolio2022",
+        url: "https://mjaedot.com/portfolio2022",
         target: "_blank",
         contents: {
             percentage: "100%",
@@ -116,7 +116,7 @@ const MpWorkItemData = [
         workName: "연습용 인터랙션 페이지",
         workClass: "interaction_booklist",
         workDate: "2022.08",
-        url: "http://mjaedot.com/exercise/002_landing_page_booklist",
+        url: "https://mjaedot.com/exercise/002_landing_page_booklist",
         target: "_blank",
         contents: {
             percentage: "100%",
@@ -134,7 +134,7 @@ const MpWorkItemData = [
         workName: "연습용 랜딩 페이지",
         workClass: "interaction_coffee",
         workDate: "2022.05",
-        url: "http://mjaedot.com/exercise/001_landing_page_cafe",
+        url: "https://mjaedot.com/exercise/001_landing_page_cafe",
         target: "_blank",
         contents: {
             percentage: "100%",
@@ -151,7 +151,7 @@ const MpWorkItemData = [
     {
         workName: "포트폴리오 사이트 (2021)",
         workClass: "mjaedev2021",
-        url: "http://mjaedot.com/portfolio2021",
+        url: "https://mjaedot.com/portfolio2021",
         target: "_blank",
         workDate: "2021.12",
         contents: {
@@ -176,115 +176,115 @@ const MpWorkItemData = [
             tableCells: [
                 {
                     name: "메인 페이지",
-                    url: "http://mjaedot.com/kickmatch/main.html",
+                    url: "https://mjaedot.com/kickmatch/main.html",
                     target: "_blank",
                     etc: "헤더 팀네임 / 필터 / plus 버튼 클릭시 모달이 나옵니다."
                 },
                 {
                     name: "메인 페이지 - 결과 없음",
-                    url: "http://mjaedot.com/kickmatch/main2.html",
+                    url: "https://mjaedot.com/kickmatch/main2.html",
                     target: "_blank",
                     etc: "헤더 팀네임 / 필터 / plus 버튼 클릭시 모달이 나옵니다."
                 },
                 {
                     name: "상세페이지",
-                    url: "http://mjaedot.com/kickmatch/detail_view.html",
+                    url: "https://mjaedot.com/kickmatch/detail_view.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원가입 1단계 - 개인정보 입력",
-                    url: "http://mjaedot.com/kickmatch/sign_up1.html",
+                    url: "https://mjaedot.com/kickmatch/sign_up1.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원가입 1단계 - 개인정보 잘못 입력시",
-                    url: "http://mjaedot.com/kickmatch/sign_up2.html",
+                    url: "https://mjaedot.com/kickmatch/sign_up2.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원가입 2단계 - 옵션 입력",
-                    url: "http://mjaedot.com/kickmatch/sign_up3.html",
+                    url: "https://mjaedot.com/kickmatch/sign_up3.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원가입 2단계 - 옵션 팝업",
-                    url: "http://mjaedot.com/kickmatch/sign_up4.html",
+                    url: "https://mjaedot.com/kickmatch/sign_up4.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원가입 3단계 - 약관",
-                    url: "http://mjaedot.com/kickmatch/sign_up5.html",
+                    url: "https://mjaedot.com/kickmatch/sign_up5.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "로그인",
-                    url: "http://mjaedot.com/kickmatch/login1.html",
+                    url: "https://mjaedot.com/kickmatch/login1.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "로그인 - 잘못 입력시",
-                    url: "http://mjaedot.com/kickmatch/login2.html",
+                    url: "https://mjaedot.com/kickmatch/login2.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "비밀번호 찾기",
-                    url: "http://mjaedot.com/kickmatch/password1.html",
+                    url: "https://mjaedot.com/kickmatch/password1.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원정보 메뉴",
-                    url: "http://mjaedot.com/kickmatch/setting1.html",
+                    url: "https://mjaedot.com/kickmatch/setting1.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원정보 확인",
-                    url: "http://mjaedot.com/kickmatch/setting2.html",
+                    url: "https://mjaedot.com/kickmatch/setting2.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "회원정보 수정",
-                    url: "http://mjaedot.com/kickmatch/setting3.html",
+                    url: "https://mjaedot.com/kickmatch/setting3.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "비밀번호 변경",
-                    url: "http://mjaedot.com/kickmatch/setting4.html",
+                    url: "https://mjaedot.com/kickmatch/setting4.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "1:1 문의",
-                    url: "http://mjaedot.com/kickmatch/setting5.html",
+                    url: "https://mjaedot.com/kickmatch/setting5.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "1:1 문의 내역",
-                    url: "http://mjaedot.com/kickmatch/setting6.html",
+                    url: "https://mjaedot.com/kickmatch/setting6.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "FAQ",
-                    url: "http://mjaedot.com/kickmatch/setting7.html",
+                    url: "https://mjaedot.com/kickmatch/setting7.html",
                     target: "_blank",
                     etc: ""
                 },
                 {
                     name: "약관",
-                    url: "http://mjaedot.com/kickmatch/setting8.html",
+                    url: "https://mjaedot.com/kickmatch/setting8.html",
                     target: "_blank",
                     etc: ""
                 }

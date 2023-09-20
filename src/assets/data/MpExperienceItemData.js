@@ -45,7 +45,7 @@ const MpExperienceItemData = [
     },
     {
         startDate: "2018.02",
-        endDate: "2019.02",
+        endDate: "2019.12",
         company: "개인사업자",
         field: "디자이너 & 퍼블리셔",
         team: "개인사업",

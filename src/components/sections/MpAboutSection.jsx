@@ -31,7 +31,7 @@ function MpAboutSection() {
                             href="https://mjae404.github.io/" target="-blank" rel="noreferrer">깃허브 블로그</a>를 운영하며 공부한 것은 꾸준히 업로드하고 있습니다.
                         </p>
                         <p className={styles['mp-about-skills']}>
-                            <strong className={styles['point']}>skills</strong> HTML, CSS, SCSS, media query, React, git, gulp, photoshop, illustrator
+                            <strong className={styles['point']}>skills</strong> HTML, CSS, SCSS, media query, React, storybook, git, gulp, photoshop, illustrator
                         </p>
                         <MpInfoList items={MpLicenseItems} />
                         <MpInfoList items={MpEducationItems} />
