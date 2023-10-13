@@ -14,6 +14,17 @@
     width: 50%;
     box-sizing: border-box;
 
+    picture {
+      img {
+        box-sizing: border-box;
+        border: 1px solid #eee;
+      }
+
+      & + div > table {
+        margin-top: 15px;
+      }
+    }
+
     @media screen and (min-width: 546px) {
       width: 33.33%;
     }
@@ -41,6 +52,7 @@
     word-break: keep-all;
 
     $classNames: (
+        tason,
         mjaedev2023,
         markup_guide,
         humuson,

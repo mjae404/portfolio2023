@@ -1,5 +1,132 @@
 const MpWorkItemData = [
     {
+        workName: "타스온 소개 페이지 리뉴얼",
+        workClass: "tason",
+        workDate: "2023.07",
+        url: "https://www.tason.com",
+        target: "_blank",
+        contents: {
+            percentage: "100%",
+            description: "타스온 메인 페이지를 포함하여 소개 페이지 리뉴얼되어 리액트 환경에서 퍼블리싱 작업을 진행했습니다.",
+            tableCells: [
+                {
+                    name: "메인 페이지",
+                    url: "https://www.tason.com",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "통합 메시징",
+                    url: "https://www.tason.com/#/to/messaging",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "통신 3사 타겟 마케팅",
+                    url: "https://www.tason.com/#/to/data-marketing",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "마케팅 자동화",
+                    url: "https://www.tason.com/#/to/ma",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "Cafe24ㆍ고도몰ㆍ메이크샵 연동",
+                    url: "https://www.tason.com/#/to/shopping-mall-platform",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스",
+                    url: "https://www.tason.com/#/to/onpremise-intro",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 마케팅 자동화",
+                    url: "https://www.tason.com/#/to/onpremise-ma-auto-platform",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 이미지 개인화",
+                    url: "https://www.tason.com/#/to/onpremise-img-personal",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - Real Time CDP",
+                    url: "https://www.tason.com/#/to/onpremise-cdp",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 실시간 개인화 추천",
+                    url: "https://www.tason.com/#/to/onpremise-personal-recommend",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 고객 관심사 Data 제공",
+                    url: "https://www.tason.com/#/to/onpremise-customer-data",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 통합 메시지 개요",
+                    url: "https://www.tason.com/#/to/onpremise-total-msg",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - TMS 구축",
+                    url: "https://www.tason.com/#/to/onpremise-tms",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 운영사업소개",
+                    url: "https://www.tason.com/#/to/onpremise-operation",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 특징 및 도입효과",
+                    url: "https://www.tason.com/#/to/onpremise-effect",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 제공기능",
+                    url: "https://www.tason.com/#/to/onpremise-offer",
+                    target: "_blank",
+                    etc: ""
+                },
+                {
+                    name: "온프레미스 - 이용절차",
+                    url: "https://www.tason.com/#/to/onpremise-step",
+                    target: "_blank",
+                    etc: ""
+                }
+            ],
+            images: [
+                {
+                    webp: "../../assets/images/tason.webp",
+                    jpg: "../../assets/images/tason.jpg",
+                    alt: "타스온 소개 페이지 리뉴얼 화면"
+                },
+                {
+                    webp: "../../assets/images/tason01.webp",
+                    jpg: "../../assets/images/tason01.jpg",
+                    alt: "타스온 소개 페이지 리뉴얼 화면"
+                }
+            ]
+        }
+    },
+    {
         workName: "포트폴리오 사이트 (2023)",
         workClass: "mjaedev2023",
         workDate: "2023.04",
@@ -13,7 +140,7 @@ const MpWorkItemData = [
                     webp: "../../assets/images/portfolio2022.webp",
                     jpg: "../../assets/images/portfolio2022.jpg",
                     alt: "개인 포트폴리오 사이트 2023 메인 화면"
-                }
+                },
             ]
         }
     },
