@@ -1,5 +1,23 @@
 const MpWorkItemData = [
     {
+        workName: "개인 모바일 웨딩 청첩장",
+        workClass: "wedding",
+        workDate: "2024.01",
+        url: "https://mingdangworld.github.io/",
+        target: "_blank",
+        contents: {
+            percentage: "100%",
+            description: "리액트 환경에서 퍼블리싱 작업하였으며 방명록의 경우 파이어 베이스를 활용하였습니다. 현재 깃허브 페이지에 배포한 상태입니다.",
+            images: [
+                {
+                    webp: "../../assets/images/wedding.webp",
+                    jpg: "../../assets/images/wedding.jpg",
+                    alt: "개인 모바일 웨딩 청첩장 화면"
+                },
+            ]
+        }
+    },
+    {
         workName: "타스온 소개 페이지 리뉴얼",
         workClass: "tason",
         workDate: "2023.07",
